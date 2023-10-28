@@ -125,7 +125,6 @@ class DNSchDetector():
         entropy = -sum(f * math.log2(f) for f in char_frequencies)
         return entropy
 
-        # ... rest of your code above
 
     def read_clean_data(self):
 
